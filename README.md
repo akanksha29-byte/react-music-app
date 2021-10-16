@@ -12,7 +12,7 @@ Displays all the data coming from Itunes api in the form of cards. On clicking t
 It contains all your favroite albums. We can add more as well as delete albums from the favorites page. On reloading the page the state of the favorites list remains the same.
 
 ## Libraries used
-Redux: For state management.\n
+Redux: For state management.\
 Redux-thunk: It is a middleware for handling dispatches also allowes us to make API calls in Redux.
 React-router-dom : For creating different routes
 React-bootstrap: For making website responsive.
