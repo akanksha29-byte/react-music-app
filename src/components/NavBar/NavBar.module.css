@@ -1,0 +1,28 @@
+.nav__bar {
+  z-index: 100;
+  position: sticky;
+  background-color: white;
+  top: 0;
+  left: 0;
+}
+
+.search_bar {
+  width: 360px;
+  display: flex;
+  justify-content: space-around;
+}
+.search_bar > input {
+  width: 270px;
+}
+
+@media screen and (max-width: 789px) {
+  .search_bar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 498px) {
+  .nav__bar {
+    padding: 10px;
+  }
+}

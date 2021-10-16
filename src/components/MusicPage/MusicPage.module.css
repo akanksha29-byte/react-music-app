@@ -1,0 +1,86 @@
+.music_container {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 85%;
+}
+
+.cards {
+  margin: 10px;
+  height: 17rem;
+  width: 16rem;
+}
+.cards:hover {
+  transform: translateY(12px);
+  transition: all 0.7s;
+  z-index: 100;
+}
+
+.cards > p {
+  font-size: 12px;
+
+  font-weight: bold;
+  color: grey;
+}
+
+.card_content {
+  position: relative;
+}
+
+.card_content > img {
+  height: 15rem;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.card_content > span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  color: rgb(69, 178, 133);
+}
+
+@media screen and (max-width: 700px) {
+  .cards {
+    height: 11rem;
+    width: 10rem;
+    margin: 5px;
+  }
+
+  .card_content > img {
+    height: 9rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .music_container {
+    width: 100%;
+  }
+
+  .cards {
+    height: 10rem;
+    width: 9rem;
+    margin: 15px;
+  }
+
+  .card_content > img {
+    height: 8rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .cards {
+    height: 9rem;
+    width: 8rem;
+    margin: 10px;
+  }
+
+  .card_content > img {
+    height: 7rem;
+    width: 100%;
+  }
+}
